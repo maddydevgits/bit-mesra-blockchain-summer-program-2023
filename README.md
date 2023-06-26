@@ -14,6 +14,18 @@ Madhu Parvathaneni alias MS is a Solutions Architect and mentor at Make Skilled.
 4. Truffle Suite
 5. VS Code
 
+# Activity Log
+
+<table>
+  <tr>
+    <th>S.No</th>
+    <th>Name of Activity</th>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>Launch Local Blockchain Server</td>
+  </tr>
+</table>
 # Questions
 
 For questions, do reach me on <a href="https://linkedin.com/in/MadhuPIoT">LinkedIn</a>
