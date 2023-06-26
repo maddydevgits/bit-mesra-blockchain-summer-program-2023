@@ -27,6 +27,16 @@ Madhu Parvathaneni alias MS is a Solutions Architect and mentor at Make Skilled.
     <td>Day1</td>
     <td>Launch Local Blockchain Server</td>
   </tr>
+  <tr>
+    <td>2</td>
+    <td>Day1</td>
+    <td>Create Crypto Wallet</td>
+  </tr>
+  <tr>
+    <td>3</td>
+    <td>Day1</td>
+    <td>Import Account into Metamask and make 2ETH Transaction</td>
+  </tr>
 </table>
 # Questions
 
