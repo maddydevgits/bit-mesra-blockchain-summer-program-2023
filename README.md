@@ -19,10 +19,12 @@ Madhu Parvathaneni alias MS is a Solutions Architect and mentor at Make Skilled.
 <table>
   <tr>
     <th>S.No</th>
+    <th>Day</th>
     <th>Name of Activity</th>
   </tr>
   <tr>
     <td>1</td>
+    <td>Day1</td>
     <td>Launch Local Blockchain Server</td>
   </tr>
 </table>
