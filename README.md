@@ -47,6 +47,11 @@ Madhu Parvathaneni alias MS is a Solutions Architect and mentor at Make Skilled.
     <td>Day1</td>
     <td>Insert only palindrome Elements to Blockchain using Smart Contract</td>
   </tr>
+  <tr>
+    <td>6</td>
+    <td>Day1</td>
+    <td>Use Function Modifier, restrict the function access only to owner</td>
+  </tr>
 </table>
 
 # Questions
