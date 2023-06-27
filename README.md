@@ -62,6 +62,11 @@ Madhu Parvathaneni alias MS is a Solutions Architect and mentor at Make Skilled.
     <td>Day2</td>
     <td>Create Migration Script to migrate Voting Contract</td>
   </tr>
+  <tr>
+    <td>9</td>
+    <td>Day2</td>
+    <td>Deploy the Contract onto Ganache Network</td>
+  </tr>
 </table>
 
 # Questions
