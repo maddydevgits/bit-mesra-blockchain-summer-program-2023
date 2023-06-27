@@ -52,6 +52,11 @@ Madhu Parvathaneni alias MS is a Solutions Architect and mentor at Make Skilled.
     <td>Day1</td>
     <td>Use Function Modifier, restrict the function access only to owner</td>
   </tr>
+  <tr>
+    <td>7</td>
+    <td>Day2</td>
+    <td>Create a Smart Contract for Voting using Truffle Suite</td>
+  </tr>
 </table>
 
 # Questions
