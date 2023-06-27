@@ -67,6 +67,11 @@ Madhu Parvathaneni alias MS is a Solutions Architect and mentor at Make Skilled.
     <td>Day2</td>
     <td>Deploy the Contract onto Ganache Network</td>
   </tr>
+  <tr>
+    <td>10</td>
+    <td>Day2</td>
+    <td>Interact with Smart Contract through Python</td>
+  </tr>
 </table>
 
 # Questions
