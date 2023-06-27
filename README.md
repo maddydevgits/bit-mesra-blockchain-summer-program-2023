@@ -57,6 +57,11 @@ Madhu Parvathaneni alias MS is a Solutions Architect and mentor at Make Skilled.
     <td>Day2</td>
     <td>Create a Smart Contract for Voting using Truffle Suite</td>
   </tr>
+  <tr>
+    <td>8</td>
+    <td>Day2</td>
+    <td>Create Migration Script to migrate Voting Contract</td>
+  </tr>
 </table>
 
 # Questions
