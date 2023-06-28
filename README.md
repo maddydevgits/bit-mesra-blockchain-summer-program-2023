@@ -95,32 +95,32 @@ Madhu Parvathaneni alias MS is a Solutions Architect and mentor at Make Skilled.
   <tr>
     <td>15</td>
     <td>Day3</td>
-    <td>Create Front End Server using Python</td>
+    <td>Create Register Contract</td>
   </tr>
   <tr>
     <td>16</td>
     <td>Day3</td>
-    <td>Create HTML Page to Render Front End</td>
+    <td>Create API for collecting register data</td>
   </tr>
   <tr>
     <td>17</td>
     <td>Day3</td>
-    <td>Collect Vote Details from Front End</td>
+    <td>Connect register API with Blockchain</td>
   </tr>
   <tr>
     <td>18</td>
     <td>Day3</td>
-    <td>Call the Backend API from the Front End</td>
+    <td>Create API for collecting login data</td>
   </tr>
   <tr>
     <td>19</td>
     <td>Day3</td>
-    <td>Call the Backend API to read Votes</td>
+    <td>Validate Login with Blockchain</td>
   </tr>
   <tr>
     <td>20</td>
     <td>Day3</td>
-    <td>Render the results on Front End</td>
+    <td>Create Register Front End Page</td>
   </tr>
 </table>
 
