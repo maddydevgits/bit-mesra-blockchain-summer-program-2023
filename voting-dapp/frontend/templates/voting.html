@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Election Dapp</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    </head>
+    <body style="background-color: aliceblue;">
+        <nav class="navbar navbar-inverse">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <a class="navbar-brand">Voting Dapp</a>
+                </div>
+                <ul class="nav navbar-nav">
+                    <li><a href="/votepage">Home</a></li>
+                    <li class="active"><a href="/votepage">Voting</a></li>
+                    <li><a href="/results">Results</a></li>
+                    <li><a href="/logout">Logout</a></li>
+                </ul>
+            </div>
+        </nav>
+        <div class="container">
+            <h2>Vote for Best Leader</h2>
+            <p>Voting through Ethereum Blockchain Network</p>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card" style="width:300px">
+                        <img class="card-img-top" src="{{url_for('static',filename='india.png')}}" alt="Card image" style="width:100%">
+                        <div class="card-body">
+                            <h4 class="card-title">Narendra Modi</h4>
+                            <p class="card-text">Prime Minister of India</p>
+                            <a href="/vote/0" class="btn btn-primary btn-vote" data-id="0">Vote</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card" style="width:300px">
+                        <img class="card-img-top" src="{{url_for('static',filename='usa.jpg')}}" alt="Card image" style="width:100%">
+                        <div class="card-body">
+                            <h4 class="card-title">Joe Biden</h4>
+                            <p class="card-text">President of USA</p>
+                            <a href="/vote/1" class="btn btn-warning btn-vote" data-id="1">Vote</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card" style="width:300px">
+                        <img class="card-img-top" src="{{url_for('static',filename='russia.png')}}" alt="Card image" style="width:100%">
+                        <div class="card-body">
+                            <h4 class="card-title">Vladimir Putin</h4>
+                            <p class="card-text">President of Russia</p>
+                            <a href="/vote/2" class="btn btn-danger btn-vote" data-id="1">Vote</a>
+                        </div>
+                    </div>
+                </div>
+            </div> <br/>
+            <span style="color:red">{{err}}</span> <br/>
+            <span style="color:green">{{res}}</span>
+        </div>
+    </body>
+</html>

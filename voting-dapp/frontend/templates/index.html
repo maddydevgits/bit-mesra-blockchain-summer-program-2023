@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Voting Dapp</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    </head>
+    <body style="background-color: aliceblue;">
+        
+            <nav class="navbar navbar-inverse">
+                <div class="container-fluid">
+                    <div class="navbar-header">
+                        <a class="navbar-brand">Voting Dapp</a>
+                    </div>
+                    <ul class="nav navbar-nav">
+                        <li class="active"><a href="/">Home</a></li>
+                        <li><a href="/register">Register</a></li>
+                        <li><a href="/login">Login</a></li>
+                    </ul>
+                </div>
+            </nav>
+        <center>
+        <h1 style="color:red">
+            Welcome to Voting Dapp
+        </h1>
+        </center>
+        <div class="container-fluid col-sm-6" style="text-align: justify;">
+        <p>
+            A decentralized voting application, also known as a decentralized application (DApp), is a software application that enables users to participate in the voting process using blockchain technology. Blockchain technology provides transparency, security, and immutability to the voting process, making it more reliable and resistant to tampering or fraud.
+        </p>
+        <p>
+            <span style="color: blue; font-weight: bold;">Here's a general overview of how a decentralized voting DApp might work:</span>
+            <ol>
+                <b>1. Smart Contracts: </b>The DApp utilizes smart contracts, which are self-executing contracts with the terms of the agreement directly written into code. Smart contracts on the blockchain define the rules and conditions of the voting process.
+            </ol>
+            <ol>
+                <b>2. User Authentication: </b> Users register and authenticate themselves on the DApp using their digital identities. These identities are typically linked to the users' blockchain addresses or cryptographic keys.
+            </ol>
+            <ol>
+                <b>3. Proposal Creation: </b>Any user can create a proposal or submit a candidate for voting. The proposal contains relevant details, such as the candidate's name, description, and any supporting documents.
+            </ol>
+            <ol>
+                <b>4. Voting Process: </b>Once the proposals are created, users can cast their votes. Each vote is recorded on the blockchain, ensuring transparency and immutability. Depending on the DApp's rules, users may have different voting rights or weights based on factors such as reputation, stake, or other criteria.
+            </ol>
+            <ol>
+                <b>5. Vote Counting and Results: </b>The voting process concludes at a specified time or when a certain voting threshold is reached. The smart contract automatically counts the votes and calculates the results. The results are then publicly available on the blockchain, ensuring transparency and auditability.
+            </ol>
+            <ol>
+                <b>6. Governance and Decision-Making: </b>In some decentralized voting DApps, the outcome of the vote directly affects the governance or decision-making of the associated decentralized organization or community. For example, the results of a vote may determine the allocation of resources, policy changes, or the selection of representatives.
+            </ol>
+    </div>
+    <div class="container-fluid col-sm-6">
+        <br/>
+        <center>
+            <img src="{{url_for('static',filename='img1.png')}}" height="550" width="500"/>
+        </center>
+    </div>
+    </body>
+</html>

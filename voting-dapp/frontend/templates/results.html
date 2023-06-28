@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Election Dapp</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    </head>
+    <body style="background-color: aliceblue;">
+        <nav class="navbar navbar-inverse">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <a class="navbar-brand">Voting Dapp</a>
+                </div>
+                <ul class="nav navbar-nav">
+                    <li><a href="/votepage">Home</a></li>
+                    <li><a href="/votepage">Voting</a></li>
+                    <li class="active"><a href="/results">Results</a></li>
+                    <li><a href="/logout">Logout</a></li>
+                </ul>
+            </div>
+        </nav>
+        <div class="container col-sm-4"></div>
+        <div class="container col-sm-4">
+            <h2>Results for Best Leader</h2>
+            <p>Voting through Ethereum Blockchain Network</p>
+            <table class="table table-bordered">
+                <tr>
+                    <th>S.No</th>
+                    <th>Name of Contestant</th>
+                    <th>Votes</th>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>Narendra Modi</td>
+                    <td>{{v0}}</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Joe Biden</td>
+                    <td>{{v1}}</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Vladimir Putin</td>
+                    <td>{{v2}}</td>
+                </tr>
+            </table>
+            <span style="color:red">{{err}}</span> <br/>
+            <span style="color:green">{{res}}</span>
+        </div>
+    </body>
+</html>
