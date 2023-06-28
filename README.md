@@ -82,6 +82,11 @@ Madhu Parvathaneni alias MS is a Solutions Architect and mentor at Make Skilled.
     <td>Day3</td>
     <td>Create API for Casting Vote</td>
   </tr>
+  <tr>
+    <td>13</td>
+    <td>Day3</td>
+    <td>Connect castvote API with Blockchain</td>
+  </tr>
 </table>
 
 # Questions
