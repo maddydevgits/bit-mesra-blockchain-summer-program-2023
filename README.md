@@ -102,6 +102,26 @@ Madhu Parvathaneni alias MS is a Solutions Architect and mentor at Make Skilled.
     <td>Day3</td>
     <td>Create HTML Page to Render Front End</td>
   </tr>
+  <tr>
+    <td>17</td>
+    <td>Day3</td>
+    <td>Collect Vote Details from Front End</td>
+  </tr>
+  <tr>
+    <td>18</td>
+    <td>Day3</td>
+    <td>Call the Backend API from the Front End</td>
+  </tr>
+  <tr>
+    <td>19</td>
+    <td>Day3</td>
+    <td>Call the Backend API to read Votes</td>
+  </tr>
+  <tr>
+    <td>20</td>
+    <td>Day3</td>
+    <td>Render the results on Front End</td>
+  </tr>
 </table>
 
 # Questions
