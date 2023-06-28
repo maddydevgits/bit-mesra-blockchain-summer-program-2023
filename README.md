@@ -77,6 +77,11 @@ Madhu Parvathaneni alias MS is a Solutions Architect and mentor at Make Skilled.
     <td>Day3</td>
     <td>Launch Backend Web Server using Python</td>
   </tr>
+  <tr>
+    <td>12</td>
+    <td>Day3</td>
+    <td>Create API for Casting Vote</td>
+  </tr>
 </table>
 
 # Questions
